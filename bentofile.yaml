@@ -1,0 +1,10 @@
+service: "service.py:svc"
+labels:
+   owner: konrad
+   project: mlbookcamp-capstone
+include:
+- "*.py"
+python:
+   packages:
+      - numpy
+      - tensorflow
