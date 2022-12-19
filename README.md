@@ -124,9 +124,9 @@ The video file "docker deployment screen capture 20221106.mov" provided as part 
 
 # Closing remarks
 
-Due to time constraints, I have unfortunately not been able to provide a independent cloud deployment.
+Due to time constraints, I have unfortunately not been able to provide an independent cloud deployment.
 
-The following tasks remain on my To Do and will be addressed at a lager stage
+The following tasks remain on my To Do and will be addressed at a later stage
 
 - continue investigating options for model tuning, exploring options such as varying the structure of the CNN or adjusting other hyperparameters
 
