@@ -94,11 +94,11 @@ A list of the required dependencies and environment (python version, required pa
 
 The following steps need to be done in order to prepare the model for deployment as a local service:
 
-In the bash terminal, open the project folder /mlbookcamp-midterm
+In the bash terminal, open the project folder /mlbookcamp-capstone
 
 Build a BentoML "bento" from the above prepared file by entering "bentoml build". This will create a bento file which includes all necessary information for dependency and environment management.
 
-The resulting bento file from step 2) is identified by a service name (as defined in service.py) + service tag (assigned during and displayed after the build process).
+The resulting bento file is identified by a service name (as defined in service.py) + service tag (assigned during and displayed after the build process).
 
 Test the bento locally by entering "bentoml serve". This command starts a so-called BentoServer on your current machine so the model service can easily be accessed in the browser (under http://0.0.0.0:3000 by default).
 
@@ -110,15 +110,15 @@ In order to do this, you need to enter "bentoml containerize" along with the nam
 
 This will yield a docker image which can be deployed anywhere. The image we will continue working with is called
 
-kitchenware_classifier_service:latest / with tag sngi2wt7dky2cd5x
-
-For local testing (on an instance where docker is installed!), simply run
-
-docker run -it --rm -p 3000:3000 kitchenware_classifier_service:sngi2wt7dky2vd5x serve --production
-
-This will start a web-based swagger interface to which you can upload and classify images of kitchenware.
+kitchenware_classifier_service:latest / with tag e.g. t3jeqrt7towk7qkp
 
 # Cloud deployment
 
-### asd
+For testing (on an instance where docker is installed!), simply run
+
+docker run -it --rm -p 3000:3000 kitchenware_classifier_service:t3jeqrt7towk7qkp serve --production
+
+This will start a web-based swagger interface to which you can upload and classify images of kitchenware.
+
+The video file "docker deployment screen capture 20221106.mov" provided as part of the repository shows how I launch and interact with the docker container running the service as described above.
 
