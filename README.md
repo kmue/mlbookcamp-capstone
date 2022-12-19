@@ -40,7 +40,9 @@ Similar to mlzoomcamp homework 9, we build a basic neural network using keras. T
 - 1 single, 64-neuron-wide dense layer which then finally maps into...
 - 1 dense output layer with 6 dimensions (1 output node for each class)
 
-We use relu activation throughout, except for the ouput layer where we need probability values for each of the possible predicted classes.
+We use relu activation throughout, except for the output layer where we need probability values for each of the possible predicted classes.
+
+
 
 ## 2) Using a prebuilt image classification framework (xception) and applying it to our data
 
