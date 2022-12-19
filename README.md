@@ -114,7 +114,7 @@ kitchenware_classifier_service:latest / with tag sngi2wt7dky2cd5x
 
 For local testing (on an instance where docker is installed!), simply run
 
-docker run -it --rm -p 3000:3000 kitchenware_classifier_service:sngi2wt7dky2cd5x serve --production
+docker run -it --rm -p 3000:3000 kitchenware_classifier_service:sngi2wt7dky2vd5x serve --production
 
 This will start a web-based swagger interface to which you can upload and classify images of kitchenware.
 
