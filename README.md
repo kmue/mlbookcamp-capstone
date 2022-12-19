@@ -122,3 +122,15 @@ This will start a web-based swagger interface to which you can upload and classi
 
 The video file "docker deployment screen capture 20221106.mov" provided as part of the repository shows how I launch and interact with the docker container running the service as described above.
 
+# Closing remarks
+
+Due to time constraints, I have unfortunately not been able to provide a independent cloud deployment.
+
+The following tasks remain on my To Do and will be addressed at a lager stage
+
+- continue investigating options for model tuning, exploring options such as varying the structure of the CNN or adjusting other hyperparameters
+
+- add more training data
+
+- set up and deploy properly on AWS Lambda or GCP, along with an external interface for sharing
+
